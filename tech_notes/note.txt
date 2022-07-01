@@ -1,0 +1,8 @@
+git:
+- git does not push empty folders, should we need to keep thoses files "touch .gitkeep"
+- if the theme has been installed using submodules, we need to download them as well: 
+  git submodule init
+  git submodule update
+
+config.toml
+  - Copy the one from the theme and adapt publishDir
