@@ -1,4 +1,4 @@
-publishDir = "docs"
+#publishDir = "docs"
 baseURL = "localhost"
 title   = "Hello Friend NG"
 languageCode = "en-us"
@@ -18,7 +18,7 @@ archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
-publishDir   = "public"
+publishDir   = "docs"
 
 buildDrafts  = false
 buildFuture  = false
